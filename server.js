@@ -37,6 +37,12 @@ const characters = {
             "first appearance" : "season 1 ep 1",
             "title"             : "The Viscount of Bridgerton",
             "portrayed by"      : "Johnathan Bailey"
+        }, 
+
+        "eloise bridgerton":{
+            "first appearance" : "season 1 ep 1",
+            "title"             : "none",
+            "portrayed by"      : "Claudia Jessie"
         }
 
 
