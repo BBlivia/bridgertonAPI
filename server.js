@@ -43,6 +43,12 @@ const characters = {
             "first appearance" : "season 1 ep 1",
             "title"             : "none",
             "portrayed by"      : "Claudia Jessie"
+        },
+
+        "marina crane":{
+            "first appearance"  : "season 1 ep 1",
+            "title"             : "none",
+            "portrayed by"      : "Ruby Barker"
         }
 
 
