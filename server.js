@@ -49,6 +49,18 @@ const characters = {
             "first appearance"  : "season 1 ep 1",
             "title"             : "none",
             "portrayed by"      : "Ruby Barker"
+        },
+
+        "marina crane":{
+            "first appearance"  : "season 1 ep 1",
+            "title"             : "none",
+            "portrayed by"      : "Ruby Barker"
+        },
+
+        "penelope featherington":{
+            "first appearance"  : "season 1 ep 1",
+            "title"             : "none",
+            "portrayed by"      : "Nicola Coughlan"
         }
 
 
