@@ -8,6 +8,11 @@ app.get('/', (request, response)=>{
 response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/api', (request, response)=>{
+    response.json()
+})
+
+
 app.listen(port, (request, response)=>{
     console.log(`the server is now running on ${port}`)
 })
