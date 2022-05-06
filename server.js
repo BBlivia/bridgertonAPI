@@ -5,22 +5,22 @@ const app = express()
 const port = 8000
 
 const characters = {
-        "Daphne" : {
+        "daphne" : {
             "first appearance": "season 1 ep 1",
              "titles"         : "Dutches of Hastings",
-            "Portrayed by"    : "Phoebe Dynevor",
+            "portrayed by"    : "Phoebe Dynevor",
                 "images"      :  "images/daphne.jpg"
 
         },
 
-        "Simon" :{
+        "simon" :{
             "first appearance" : "season 1 ep 1",
             "title"            : "Duke of Hastings",
             "portrayed by"     : "Regé-Jean Page",
            " images"           : 'images/simon.jpg'
         },
 
-        "Unknown" :{
+        "unknown" :{
             "first appearance" : "NA",
             "title"            : "NA",
             "portrayed by"     : "NA",
@@ -35,7 +35,7 @@ response.sendFile(__dirname + '/index.html')
 })
 
 app.get('/api/:name', (request, response)=>{
-    request.params.name
+    const characterName = request.params.name.toLocaleLowerCase
     response.json(characters)
 })
 
