@@ -35,9 +35,11 @@ response.sendFile(__dirname + '/index.html')
 })
 
 app.get('/api/:name', (request, response)=>{
-    const characterName = request.params.name.toLocaleLowerCase
+    const characterName = request.params.name.toLowerCase()
     if(characters[characterName]){
-    response.json(characters[characterName])
+        response.json(characters[characterName])
+    }else{
+        response.json(characters[unknown])
     }
 
 })
