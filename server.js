@@ -39,7 +39,7 @@ app.get('/api/:name', (request, response)=>{
     if(characters[characterName]){
         response.json(characters[characterName])
     }else{
-        response.json(characters[unknown])
+        response.json(characters['unknown'])
     }
 
 })
