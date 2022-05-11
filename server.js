@@ -5,19 +5,19 @@ const app = express()
 const port = 8000
 
 const characters = {
-        "daphne" : {
+        "daphne bridgerton" : {
             "first appearance": "season 1 ep 1",
              "titles"         : "Dutches of Hastings",
             "portrayed by"    : "Phoebe Dynevor",
-                "images"      :  "images/daphne.jpg"
+             
 
         },
 
-        "simon" :{
+        "simon basset" :{
             "first appearance" : "season 1 ep 1",
             "title"            : "Duke of Hastings",
             "portrayed by"     : "Regé-Jean Page",
-           " images"           : 'images/simon.jpg'
+         
         },
 
         "unknown" :{
@@ -25,7 +25,17 @@ const characters = {
             "title"            : "NA",
             "portrayed by"     : "NA",
            " images"           : 'Na'
-        }
+        },
+
+        "kate sharma" :{
+            "first appearance" : "season 2 ep 1",
+            "title"            : "The Viscountess of Bridgerton",
+            "portrayed by"     : " Simone Ashley",
+         
+        },
+
+     
+
 
 
 }
