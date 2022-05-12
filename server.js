@@ -34,6 +34,7 @@ const characters = {
          
         },
 
+<<<<<<< HEAD
         "anthony bridgerton " :{
             "first appearance" : "season 1 ep 1",
             "title"            : "The Viscountess of Bridgerton",
@@ -42,6 +43,8 @@ const characters = {
         },
 
         
+=======
+>>>>>>> 9bda4f0e0fe928adba328dd5e857afe7007905aa
      
 
 
