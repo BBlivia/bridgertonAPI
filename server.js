@@ -31,20 +31,16 @@ const characters = {
             "first appearance" : "season 2 ep 1",
             "title"            : "The Viscountess of Bridgerton",
             "portrayed by"     : " Simone Ashley",
-         
         },
 
-<<<<<<< HEAD
-        "anthony bridgerton " :{
+        "anthony bridgerton":{
             "first appearance" : "season 1 ep 1",
-            "title"            : "The Viscountess of Bridgerton",
-            "portrayed by"     : "Johnathan Bailey",
-         
-        },
+            "title"             : "The Viscount of Bridgerton",
+            "portrayed by"      : "Johnathan Bailey"
+        }
+
 
         
-=======
->>>>>>> 9bda4f0e0fe928adba328dd5e857afe7007905aa
      
 
 
