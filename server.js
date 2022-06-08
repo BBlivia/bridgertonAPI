@@ -2,7 +2,7 @@ const { response } = require("express")
 const { request } = require("express")
 const express = require("express")
 const app = express()
-const port = 8000
+const PORT = 8000
 
 const characters = {
         "daphne bridgerton" : {
@@ -57,11 +57,11 @@ const characters = {
             "portrayed by"      : "Ruby Barker"
         },
 
-        "penelope featherington":{
+    "penelope featherington":{
             "first appearance"  : "season 1 ep 1",
             "title"             : "none",
             "portrayed by"      : "Nicola Coughlan"
-        }
+        },
 
 
         
@@ -86,6 +86,6 @@ app.get('/api/:name', (request, response)=>{
 })
 
 
-app.listen(port, (request, response)=>{
-    console.log(`the server is now running on ${port}`)
+app.listen(process.env.PORT || PORT ,(request, response)=>{
+    console.log(`the server is now running on ${PORT}`)
 })
