@@ -1,10 +1,12 @@
-const { response } = require("express")
-const { request } = require("express")
+
 const express = require("express")
 const app = express()
+const cors = require('cors')
+const { response } = require("express")
 const PORT = 8000
+app.use(cors())
 
-const characters = {
+let characters = {
         "daphne bridgerton" : {
             "first appearance": "season 1 ep 1",
              "titles"         : "Dutches of Hastings",
@@ -57,7 +59,7 @@ const characters = {
             "portrayed by"      : "Ruby Barker"
         },
 
-    "penelope featherington":{
+        "penelope featherington":{
             "first appearance"  : "season 1 ep 1",
             "title"             : "none",
             "portrayed by"      : "Nicola Coughlan"
@@ -69,10 +71,15 @@ const characters = {
 
 
 
-}
+    }
 
 app.get('//', (request, response)=>{
 response.sendFile(__dirname + '/index.html')
+})
+
+app.get('/api', (request,response)=>{
+    response.json(characters)
+
 })
 
 app.get('/api/:name', (request, response)=>{
